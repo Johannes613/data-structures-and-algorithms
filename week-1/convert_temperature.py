@@ -29,6 +29,7 @@
 
 # 0 <= celsius <= 1000
 
+from typing import List
 class Solution:
     def convertTemperature(self, celsius: float) -> List[float]:
         # Kelvin = Celsius + 273.15
